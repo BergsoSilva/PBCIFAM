@@ -16,6 +16,7 @@ public class SalarioRecebidoEvent extends java.util.EventObject {
     private Double salario;
 
     public SalarioRecebidoEvent(Object source, Double salario) {
+        
         // Chama o contrutor da super class EventObject
         super(source);
         this.salario=salario;
